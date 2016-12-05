@@ -3,3 +3,6 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/Dropbox/Software/Opencart/Naga
+hooks:
+  BeforeInstall:
+    - location: pre-install.sh
